@@ -74,20 +74,20 @@
                 buttons: [
                   'excelHtml5',
                   'copyHtml5',
-                  {
-                      text: 'Add',
-                      name: 'add'        // DO NOT change name
-                    },
-                    {
-                      extend: 'selected', // Bind to Selected row
-                      text: 'Edit',
-                      name: 'edit'        // DO NOT change name
-                    },
-                    {
-                      extend: 'selected', // Bind to Selected row
-                      text: 'Delete',
-                      name: 'delete'      // DO NOT change name
-                   }
+//                   {
+//                       text: 'Add',
+//                       name: 'add'        // DO NOT change name
+//                     },
+//                     {
+//                       extend: 'selected', // Bind to Selected row
+//                       text: 'Edit',
+//                       name: 'edit'        // DO NOT change name
+//                     },
+//                     {
+//                       extend: 'selected', // Bind to Selected row
+//                       text: 'Delete',
+//                       name: 'delete'      // DO NOT change name
+//                    }
                 ],
                 "columns" : [
                     {data: "clCodeNm"},
@@ -102,9 +102,6 @@
  
     });
 	
-
-
-
 </script>
 </head>
 
